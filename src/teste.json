@@ -1,5 +1,5 @@
 {
     "nome": "wesley",
-    "senha": 1234,
-    "email": "aaa"
+    "cpf": 1234,
+    "password": "aaa"
 }
