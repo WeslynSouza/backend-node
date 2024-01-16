@@ -2,10 +2,10 @@
   "name": "backend-node",
   "version": "1.0.0",
   "description": "",
-  "main": "build/index.js",
+  "main": "build/server.js",
   "scripts": {
-    "start:dev": "nodemon ./src/index.ts",
-    "start:prd": "npm run build && node build/index.js",
+    "start:dev": "nodemon ./src/server.ts",
+    "start:prd": "npm run build && node build/server.js",
     "build": "rimraf ./build && tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
